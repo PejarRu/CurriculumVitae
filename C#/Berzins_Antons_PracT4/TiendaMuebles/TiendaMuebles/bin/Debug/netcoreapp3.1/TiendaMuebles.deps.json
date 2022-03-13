@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TiendaMuebles/1.0.0": {
+        "runtime": {
+          "TiendaMuebles.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TiendaMuebles/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

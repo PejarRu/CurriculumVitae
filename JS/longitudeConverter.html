@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Magnitude Converter</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<style>
+		body{
+			margin-top: 70px;
+			background-color: #333;
+			color:#fff;
+		}
+		.card-block{padding: 10px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<h1 class="display-3 text-center">Magnitude converter</h1>
+				<form>
+					<div class="form-group">
+						<input type="number" id="kmInput" placeholder="Put Kilometers" class="form-control form-control-lg">
+					</div>
+
+				</form>
+				<div id="output">
+					<div class="card alert-warning mb-2">
+						<div class="card-block">
+							<h4>Meters:</h4>
+							<div id="metersOutput"></div>
+						</div>
+					</div>
+					<div class="card alert-primary mb-2">
+						<div class="card-block">
+							<h4>Centemeters:</h4>
+							<div id="smOutput"></div>
+						</div>
+					</div>
+					<div class="card alert-success mb-2">
+						<div class="card-block">
+							<h4>Milimeters:</h4>
+							<div id="mlOutput"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+<script>
+	document.getElementById("output").style.visibility = "hidden";
+	document.getElementById("kmInput").addEventListener("input",function(e){
+	document.getElementById("output").style.visibility = "visible";
+		let km = e.target.value;
+		document.getElementById("metersOutput").innerHTML = km * 1000;
+		document.getElementById("smOutput").innerHTML = km * 100000;
+		document.getElementById("mlOutput").innerHTML = km * 1000000;
+			});
+
+
+
+</script>
+
+</body>
+</html>

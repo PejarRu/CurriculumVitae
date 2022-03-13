@@ -1,0 +1,14 @@
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\obj\Debug\netcoreapp3.1\TiendaMuebles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\obj\Debug\netcoreapp3.1\TiendaMuebles.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\obj\Debug\netcoreapp3.1\TiendaMuebles.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\obj\Debug\netcoreapp3.1\TiendaMuebles.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\bin\Debug\netcoreapp3.1\TiendaMuebles.exe
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\bin\Debug\netcoreapp3.1\TiendaMuebles.deps.json
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\bin\Debug\netcoreapp3.1\TiendaMuebles.runtimeconfig.json
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\bin\Debug\netcoreapp3.1\TiendaMuebles.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\bin\Debug\netcoreapp3.1\TiendaMuebles.dll
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\bin\Debug\netcoreapp3.1\TiendaMuebles.pdb
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\obj\Debug\netcoreapp3.1\TiendaMuebles.dll
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\obj\Debug\netcoreapp3.1\TiendaMuebles.pdb
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\obj\Debug\netcoreapp3.1\TiendaMuebles.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 3\Berzins_Antons_PracT4\TiendaMuebles\TiendaMuebles\obj\Debug\netcoreapp3.1\TiendaMuebles.csproj.AssemblyReference.cache

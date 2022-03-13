@@ -1,0 +1,548 @@
+ <!--
+ /*Primera manera de hacer */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<h1>Header 1</h1>
+	<p>sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss</p>
+
+	<button class="btn btn-primary">BOTON1</button>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>	
+
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+  	<link rel="stylesheet" href="estilos.css"></link>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+	<header>
+		<div class="container">
+	    	<h1>Header</h1>
+	    	<h3>12 columnas</h3>
+	    </div>
+	</header>
+	<!--Esto es para que el texto de la pagina que va despues de la barra de 
+		navegacion,no se tape con la barra de navegación y apareza directamente 
+		despues de ella, ya que la (nav) en Bostrap mide 80 px--><style>body{padding-top:80px;}</style>
+
+<!--NAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBARNAVBAR-->
+
+<div class="container">
+	<br>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="buton" class="navbar-toggle callapsed" data-toggle="collapse" data-target="#navbar">
+						<span class="sr-only">Menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+		<a href="#" class="navbar-brand">Anton</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="navbar-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Item 1</a></li>
+						<li><a href="#" class="active">Item 2</a></li>
+
+		<li class="dropdown">
+ 	<a href="#" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    	Dropdown<span class="caret"></span>
+ 	</a>
+ 			<ul class="dropdown-menu">
+				<li><a href="#">Item #1</a></li>
+				<li><a href="#">Item #2</a></li>	
+				<li class="divider"></li> 	
+				<li><a href="#">Item #4</a> </li>	
+			</ul>
+		</li>
+			<form action="" class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text"  class="form-control" placeholder="Search" name="">
+						</div>
+				</form>
+				<ul class="nav navbar-nav navbar-right">
+					<div class="collapse navbar-collapse" id="navbar-1">
+					<ul class="nav navbar-nav">
+						<li><a href="#">Item 1</a></li>
+						<li><a href="#" class="active">Item 2</a></li>
+
+		<li class="dropdown">
+ 	<a href="#" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    	Dropdown<span class="caret"></span>
+ 	</a>
+ 			<ul class="dropdown-menu">
+				<li><a href="#">Item #1</a></li>
+				<li><a href="#">Item #2</a></li>	
+				<li class="divider"></li> 	
+				<li><a href="#">Item #4</a> </li>	
+			</ul>
+				</li>
+			</ul>
+		</div>			
+	</div>
+</nav>
+	</header>
+
+</div>
+
+<br><br>
+
+<!--BODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODYBODY-->
+<div class="container">
+	<section class="main row">
+		<article class="col-xs-12 col-sm-8 col-md-9">
+			<p>
+			<h3>Articulo - Article</h3>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<a href="#" class="btn btn-primary visible-xs-inline visible-sm-inlinevisible-md visible-lg hidden-print">Boton</a>
+			<a href="#" class="btn btn-primary visible-xs-inline visible-sm-inlinevisible-md visible-lg visible-print-">Boton</a>
+
+				</p>
+		</article>
+
+		<aside class="visible-lg visible-md col-xs-12 col-sm-4 col-md-3">
+			<p><h3>Sidebar - Aside</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.Et perferendis praesentium illo quas quo rem nesciunt,sed corporis nobis earum consectetur delectus vero sequi quam cum molestias beatae similique error!
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eum, quisquam tempora nesciunt eligendi accusantium voluptatum corporis illo sequi cupiditate vel excepturi possimus ipsa quis, temporibus saepe autem nostrum quibusdam?
+			</p>
+		</aside>
+	</section>
+	<div class="row">
+		<div class="colo1 col-xs-12 col-sm-6 col-md-3">
+		<p><h3>Sidebar - Aside</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.Et perferendis praesentium illo quas quo rem nesciunt,sed corporis nobis earum consectetur delectus vero sequi quam cum molestias beatae similique error!
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eum, quisquam tempora nesciunt eligendi accusantium voluptatum corporis illo sequi cupiditate vel excepturi possimus ipsa quis, temporibus saepe autem nostrum quibusdam?
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<h3>Columna</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.Et perferendis praesentium illo quas quo rem nesciunt,sed corporis nobis earum consectetur delectus vero sequi quam cum molestias beatae similique error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eum, quisquam tempora nesciunt eligendi accusantium voluptatum corporis illo sequi cupiditate vel excepturi possimus ipsa quis, temporibus saepe autem nostrum quibusdam?
+			</p>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<h3>Columna</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.Et perferendis praesentium illo quas quo rem nesciunt,sed corporis nobis earum consectetur delectus vero sequi quam cum molestias beatae similique error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eum, quisquam tempora nesciunt eligendi accusantium voluptatum corporis illo sequi cupiditate vel excepturi possimus ipsa quis, temporibus saepe autem nostrum quibusdam?
+			</p>
+		</div>
+
+		<!-- <div class="clearfix visible-sm-block"> </div>-->
+
+		<div class="col-xs-12 col-sm-6 col-md-3">
+			<h3>Columna</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit.Et perferendis praesentium illo quas quo rem nesciunt,sed corporis nobis earum consectetur delectus vero sequi quam cum molestias beatae similique error!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit eum, quisquam tempora nesciunt eligendi accusantium voluptatum corporis illo sequi cupiditate vel excepturi possimus ipsa quis, temporibus saepe autem nostrum quibusdam?
+			</p>
+	</div>
+</div>
+
+
+<div class="container">
+	<br>
+	<h2>Formulario 1</h2>
+<br>
+
+	<form action="" class="">
+	<div class="form-group">
+		<label for="name">Name</label>
+		<input type="text" class="form-control" id="name" placeholder="Name">
+	</div>
+
+
+<br>
+
+<div class="form-group">
+		<label for="option">Chose one</label>	
+		<select class="form-control" name="" id="">
+			<option value=""> Option 1</option>
+			<option value=""> Option 2</option>
+			<option value=""> Option 3</option>
+			<option value=""> Option 4</option>
+			<option value=""> Option 5</option>
+			<option value=""> Option 6</option>
+		</select>
+</div>
+
+<br>
+
+<div class="form-group">
+		<label for="message">Message</label>	
+		<textarea name="" class="form-control" id="message"id="" cols="15" rows="1"></textarea>
+</div>
+
+<div class="form-group">
+	<label for="archive">File</label>
+	<input type="file" name=archive"">
+	<p class="help-block">50MB max.</p>
+</div>
+
+	<button class="btn btn-primary">Send</button>
+	</form> 
+	<br>
+</div>
+<!--2 FORMULARIO 2 FORMULARIO 2 FORMULARIO 2 FORMULARIO 2 FORMULARIO 2 FORMULARIO 2 FORMULARIO 2 FORMULARIO 2 FORMULARIO 2 FORMULARIO-->
+
+<div class="container">
+
+<br><h2>Formulario 2</h2><br>
+
+<form action="" class="form-inline ">
+		<div class="form-group">
+			<label class="sr-only" for="name1">Name</label>
+			<input class="form-control" type="text" id="name1" placeholder="Name">
+		</div>
+<br>
+	<div class="form-group">
+		<div class="input-group">
+			<label class="sr-only" for="mail">Email</label>
+			<div class="input-group-addon">@</div>
+			<input class="form-control"type="text" id="mail" placeholder="Email">
+		</div>
+	</div>
+<br>	
+	<div class="">
+		<label>
+			<input type="checkbox" name="">Remember
+		</label>
+	</div>
+	<button class="btn btn-primary">Send</button>
+</form>
+<br>
+</div>
+
+<!--3 FORMULARIO 3 FORMULARIO 3 FORMULARIO 3 FORMULARIO 3 FORMULARIO 3 FORMULARIO 3 FORMULARIO 3 FORMULARIO 3 FORMULARIO 3 FORMULARIO-->
+
+<div class="container">
+	<br><h2>Formularuio 3</h2><br>
+	<form action="" class="form-horizontal">
+		<div class="form-group has-success">
+			<label for="name2" class="control-label col-md-2">Name:</label>
+			<div class="col-md-10">
+			<input class="form-control" type="text" id="name2" placeholder="Name">
+			</div>
+		</div>
+
+		<div class="form-group has-warning">
+			<label for="name2"! class="control-label col-md-2">Name:</label>	
+			<div class="col-md-10">
+			<p class="form-control-static">Anton Berzins</p>
+			</div>
+		</div>
+
+		<div class="form-group has-error">
+			<label for="correo" class="control-label col-md-2">Email</label>
+			<div class="col-md-10">
+				<input type="text" id="correo" class="form-control" placeholder="Email">
+			</div>
+		</div>
+			
+		<div class="form-group">
+			<div class="checkbox col-md-2 col-md-offset-2">
+				<label>
+					<input type="checkbox">Recuerdame
+				</label>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div class=" col-md-2 col-md-offset-2">
+				<button class="btn btn-primary">Send</button>
+			</div>
+		</div>
+	</form>
+</div>
+
+<br>
+
+<!--TABLESTABLESTABLESTABLESTABLESTABLESTABLESTABLESTABLESTABLESTABLESTABLESTABLESTABLES-->
+<div class="container">
+	<h2>Tablas</h2>
+<div class="table-responsive">
+	<table class="table table-striped table-bordered table-hover">
+	<tr class="info">
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+	</tr>
+	<tr>
+		<td class="active">4</td>
+		<td>5</td>
+		<td>6</td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>8</td>
+		<td>9</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>11</td>
+		<td>12</td>
+	</tr>
+
+	</table>
+</div>
+</div>
+
+
+
+<!--BottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottonsBottons-->
+<div class="container-fluid">
+<h4>Botones 1</h4>
+		<div class="col-md-3">
+			<button class="btn btn-default">Default</button>
+			<button class="btn btn-primary">Primary</button>
+			<button class="btn btn-success">Success</button>
+			<button class="btn btn-info">Info</button>
+			<button class="btn btn-warning">Warning</button>
+			<button class="btn btn-danger">Danger</button>
+			<button class="btn btn-link">Link</button>
+	</div>
+
+	<div class="container-fluid">
+		<h4>Botones 2</h4>
+		<div class="col-md-3">
+			<button class="btn btn-default active">Default</button>
+			<button class="btn btn-primary active">Primary</button>
+			<button class="btn btn-success active">Success</button>
+			<button class="btn btn-info active">Info</button>
+			<button class="btn btn-warning active">Warning</button>
+			<button class="btn btn-danger active">Danger</button>
+			<button class="btn btn-link active">Link</button>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<h4>Botones 3</h4>
+	<div class="col-md-3">
+		<button class="btn btn-block btn-default btn-sm">Default</button>
+		<button class="btn btn-block btn-primary btn-xs">Primary</button>
+		<button class="btn btn-block btn-success btn-lg">Success</button>
+		<button class="btn btn-block btn-info    btn-md">Info</button>
+		<button class="btn btn-block btn-warning">Warning</button>
+		<button class="btn btn-block btn-danger">Danger</button>
+		<button class="btn btn-block btn-link">Link</button>
+	</div>
+</div>
+
+<!--IMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGESIMAGES-->
+<br>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2">
+			<img src="https://i.kinja-img.com/gawker-media/image/upload/s--G-sdBgNR--/c_scale,f_auto,fl_progressive,q_80,w_800/z7jcryloxjedsztssw39.jpg" class="img-responsive img-rounded"   alt="">
+		</div>
+
+		<div class="col-md-2">
+			<img src="https://i.kinja-img.com/gawker-media/image/upload/s--G-sdBgNR--/c_scale,f_auto,fl_progressive,q_80,w_800/z7jcryloxjedsztssw39.jpg" class="img-responsive img-circle"    alt="">
+		</div>
+
+		<div class="col-md-2">
+			<img src="https://i.kinja-img.com/gawker-media/image/upload/s--G-sdBgNR--/c_scale,f_auto,fl_progressive,q_80,w_800/z7jcryloxjedsztssw39.jpg" class="img-responsive img-thumbnail" alt="">
+		</div>
+	</div>
+</div>
+
+<!--HELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASSHELPERCLASS-->
+<<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Titulo de prueba</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate illum 
+			ipsam, magni aliquam esse, quis repudiandae corrupti suscipit obcaecati 
+			expedita eligendi aperiam earum reprehenderit nostrum consequatur ut quasi quia
+			nisi.</p>
+			<button class="btn pull-left btn-primary">Boton 1</button>
+			<button class="btn pull-right btn-success">Boton 2 </button>
+
+			<br><br>
+			<a href="#" class="">Visit article</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<div style="width: 300px;" class="bg-success center-block">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, labore, ea? Blanditiis obcaecati ut, natus error eos sed sapiente deleniti aperiam expedita eveniet ipsum praesentium quasi, magnam consequatur dignissimos molestiae!
+			</div>
+		</div>
+	</div>
+</div>
+
+<br><br><br><br>
+<!--ICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOSICONOS-->
+<div class="container">
+	<h1><span class=" glyphicon glyphicon-asterisk"></span>Titulo de prueba</h1>
+	<h2><span class=" glyphicon glyphicon glyphicon-plus"></span>Titulo de prueba</h2>
+	<h3><span class=" glyphicon glyphicon-euro"></span>Titulo de prueba</h3>
+	<h4><span class=" glyphicon glyphicon-minus"></span>Titulo de prueba</h4>
+	<h5><span class=" glyphicon glyphicon-cloud"></span>Titulo de prueba</h5>
+	<h6><span class=" glyphicon glyphicon-envelope"></span>Titulo de prueba</h6>
+</div>
+
+<!--DROPDOWN-DROPDOWN-DROPDOWN-DROPDOWN-DROPDOWN-DROPDOWN-DROPDOWN-DROPDOWN-DROPDOWN-DROPDOWN-DROPDOWN-DROPDOW-DROPDOW-DROPDOW-DROPDOW-DROPDOW-DROPDOW-DROPDOW-->
+
+<div class="container">
+	<br>
+ 	<div class="dropdown">
+ 	<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
+ 		<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+ 			<ul>
+				<li><a class="dropdown-item" href="#">Item #1</a></li>
+				<li><a class="dropdown-item" href="#">Item #2</a></li>	
+				<li><a class="dropdown-item" href="#">Item #3</a></li> 	
+				<li><a class="dropdown-item" href="#">Item #4</a> </li>	
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!--TOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBARTOOLSBAR-->
+
+<div class="container"> 
+<br>
+<div class="btn-group-lg ">
+	<button class="btn btn-primary">1</button>
+	<button class="btn btn-primary">2</button>
+	<button class="btn btn-primary">3</button>
+</div>
+
+<div class="btn-group-md">
+	<button class="btn btn-primary">1</button>
+	<button class="btn btn-primary">2</button>
+	<button class="btn btn-primary">3</button>
+</div>
+
+<div class="btn-group-sm">
+	<button class="btn btn-primary">1</button>
+	<button class="btn btn-primary">2</button>
+	<button class="btn btn-primary">3</button>
+</div>
+
+<div class="btn-group-xs">
+	<button class="btn btn-primary">1</button>
+	<button class="btn btn-primary">2</button>
+	<button class="btn btn-primary">3</button>
+</div>
+
+
+<div class="btn-group">
+	<button class="btn btn-lg btn-primary">1lg</button>
+	<button class="btn btn-lg btn-primary">2lg</button>
+	<button class="btn btn-lg btn-primary">3lg</button>
+</div>
+
+<div class="btn-group">
+	<button class="btn btn-md btn-primary">1md</button>
+	<button class="btn btn-md btn-primary">2md</button>
+	<button class="btn btn-md btn-primary">3md</button>
+</div>
+
+<div class="btn-group">
+	<button class="btn btn-sm btn-primary">1sm</button>
+	<button class="btn btn-sm btn-primary">2sm</button>
+	<button class="btn btn-sm btn-primary">3sm</button>
+</div>
+
+<div class="btn-group">
+	<button class="btn btn-xs btn-primary">1xs</button>
+	<button class="btn btn-xs btn-primary">2xs</button>
+	<button class="btn btn-xs btn-primary">3xs</button>
+</div>
+<br>
+	<div class="btn-group">
+		<button class="btn btn-primary">RIGHT</button>
+		<button class="btn btn-primary">CENTER</button>
+		<button class="btn btn-primary">LEFT</button>
+	</div>
+
+	<div class="btn-group-vertical">
+		<button class="btn btn-primary">RIGHT</button>
+		<button class="btn btn-primary">CENTER</button>
+		<button class="btn btn-primary">LEFT</button>
+		
+		<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  <li>
+   	 <a class="dropdown-item" href="#">Dropdown1</a>
+   	 <a class="dropdown-item" href="#">Dropdown2</a>
+   	 <a class="dropdown-item" href="#">Dropdown3</a>
+ 	 </div>
+  </li>
+</div>
+	</div>
+
+
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  <li>
+   	 <a class="dropdown-item" href="#">Dropdown1</a>
+   	 <a class="dropdown-item" href="#">Dropdown2</a>
+   	 <a class="dropdown-item" href="#">Dropdown3</a>
+ 	 </div>
+  </li>
+</div>
+
+</div>
+
+
+
+
+
+<!--
+	<button class="btn btn-primary">BOTON1</button>  <script src="js/jquery.js"></script><script src="js/bootstrap.min.js"></script> -->
+
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <br><br><br><br>
+    <footer>
+		<div class="container">
+			<h3>Pie de pagina - Footer</h3>
+			<h4>12 Columnas</h4>
+		</div>
+	</footer>
+	</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+ </body>
+</html>

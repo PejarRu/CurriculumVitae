@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\TicTacToe.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\TicTacToe.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\bin\Debug\net6.0\TicTacToe.exe
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\bin\Debug\net6.0\TicTacToe.deps.json
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\bin\Debug\net6.0\TicTacToe.runtimeconfig.json
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\bin\Debug\net6.0\TicTacToe.dll
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\bin\Debug\net6.0\ref\TicTacToe.dll
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\bin\Debug\net6.0\TicTacToe.pdb
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\TicTacToe.dll
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\ref\TicTacToe.dll
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\TicTacToe.pdb
+C:\Users\Usuario\Desktop\DAW\PROGRAMACION\tema 6\TicTacToe\obj\Debug\net6.0\TicTacToe.genruntimeconfig.cache

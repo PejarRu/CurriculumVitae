@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <header>
+        <H2>To do lists</H2>
+    </header>
+    <input type="text" name="" id="workTitle" value="New task">
+        <button onclick="addWork()">Add task</button>
+    <ol id="taskList">
+
+        
+    </ol>
+
+    <script>
+        //Count the total number of li elements. Eg: 5 li -> tasknumber = 5
+        let taskNumber = 1;
+        
+        function addWork() {
+
+            console.log("There are: " + taskNumber);
+
+            //Check how many task do you have
+            if (taskNumber == 8 ) {
+                //If you have many task, you should start doing it
+                alert("I think you must start to do the tasks");
+                
+            } else if( taskNumber > 8 && taskNumber < 11) {
+                //you still dont do anything, just adding task
+                alert("You have a lot to do. This is all for now");
+               
+                
+            } else if ( taskNumber >= 10) {
+                //i dont allow you to do nothing
+                return;
+            }      
+            
+            //------------------ Add new task-------------------
+            
+            //Take the value from the input. It must be the "text" of the new task
+            
+
+            //check if the input is not epmty
+            if ( document.getElementById("workTitle").value == "" || document.getElementById("workTitle").value == " ") {
+                //the task cant be "nothing"
+                alert("The task have no title");
+                return;
+            } else  {
+                workTitle = document.getElementById("workTitle").value;
+            }
+
+            //pass the task to string to use on the id
+            let stringTaskNumber = "task" + +taskNumber;
+            //get the link to the element wiht the same id
+            let idCheck = document.getElementById(stringTaskNumber);
+
+            function create() {
+                //create li element
+                let liElement = document.createElement("li");
+                //create P element
+                let aElement = document.createElement("a");
+                //get the text inside the input
+                let text = document.createTextNode(workTitle);
+                
+                //add the delWork() function to the "li" element
+                let functionLi = "delWork(\"" + stringTaskNumber + "\")";
+            
+            //set atributes to LI
+                //set the id (task + num)
+                liElement.setAttribute("id", stringTaskNumber);
+                //set the class to css work propelry
+                liElement.setAttribute("class", "animation");
+                //set a function that allow delete the task when its done
+                liElement.setAttribute("onclick", functionLi);
+                //start to apending elements
+                //apend "li" to specific "ul"
+                document.getElementById("taskList").appendChild(liElement);
+                //append the "a" to the specific li
+                document.getElementById(stringTaskNumber).appendChild(aElement);
+                //append the input text (t), to the P element
+                aElement.appendChild(text);
+            }
+
+            //chek if the idCheck exists or not
+             if(idCheck == null){
+                 //the id does not exist, you can create a new task
+                 console.log('Good!. No element with the same name!');
+                 create();
+
+                 //--------------------------
+                 //add 1 to taskNumbe, so it count how many li>a( tasks) there are
+                 //--------------------------------------------------
+                 taskNumber += 1;
+             }else{
+                 //the id is ocupied
+                 console.log("Element with " + stringTaskNumber + "alredy exist. Creating new ID...");
+                 //find new id that isnt ocupied
+                 for (i = 0; i < 10; i++) {
+                     //create a local coppy od stringTaskNumber
+                     let copyStringTaskNumber = "task" + taskNumber;
+                     //look for an elemetn "a" with the ID that alredy exists
+                     let b = document.getElementById(copyStringTaskNumber);
+
+                     //if id exist, add 1 to the id and repeat the cheking
+                     if (b == null) {
+                         //if the id is not ocupied, return the value of the id
+                         return taskNumber;                    
+                     }else
+                     {
+                        taskNumber++
+                     }
+                     
+                 }
+             
+             } 
+            
+        }
+
+        //function that allow delete tasks (li>a)
+        function delWork(taskId) {
+
+            console.log("Before there are: " + taskNumber);
+
+            //this is just to work easier(can be deleted)
+            console.log("Task deleted. There still N" + taskNumber + " tasks!");
+            
+            //get the element by id
+            let finishedConcreteTask = document.getElementById(taskId);
+            
+            //substract 1 after every deleted element except if the value is 0, that we cant go to negativa numbers
+            if (taskNumber != 0) {
+                //substraction
+                taskNumber--;
+            }
+
+            //remove the selected element
+            finishedConcreteTask.parentNode.removeChild(finishedConcreteTask);
+
+            console.log("After there are: " + taskNumber);
+
+        }
+    </script>
+
+
+<div>
+    <h2>Finished task</h2> 
+
+    <div id="finishedSection">
+        
+    </div>
+</div>
+
+<h3>
+    <p id="errorMesage"></p>
+</h3>
+
+    
+</body>
+</html>
